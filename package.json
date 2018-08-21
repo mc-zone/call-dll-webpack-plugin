@@ -1,0 +1,22 @@
+{
+  "name": "call-dll-webpack-plugin",
+  "version": "0.0.1",
+  "description": "Call DLL immediately.",
+  "main": "./lib/index.js",
+  "repository": "https://github.com/mc-zone/call-dll-webpack-plugin.git",
+  "author": "mc-zone <mc@mc-zone.me>",
+  "license": "MIT",
+  "scripts": {
+    "fix": "yarn prettier --write lib/*.js tests/*.js && eslint lib/*.js tests/*.js --fix",
+    "test": "yarn fix && node ./tests/build.js && jest ./tests/test.js"
+  },
+  "devDependencies": {
+    "eslint": "^5.4.0",
+    "eslint-plugin-jest": "^21.21.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^4.0.0",
+    "jest": "^23.5.0",
+    "prettier": "^1.14.2",
+    "webpack": "3"
+  }
+}
