@@ -1,2 +1,3 @@
-# run-dll-webpack-plugin
-run Dll immediately
+# call-dll-webpack-plugin
+
+Call Dll immediately
