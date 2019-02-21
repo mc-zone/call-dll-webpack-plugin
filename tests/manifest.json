@@ -1,1 +1,1 @@
-{"name":"common","content":{"./notBeCalled.js":{"id":"2n2O","meta":{}},"./beCalled.js":{"id":"82Wg","meta":{}},"./entrypoint.js":{"id":"pk1B","meta":{}}}}
+{"name":"common","content":{"./notBeCalled.js":{"id":"PXI0","buildMeta":{"providedExports":true}},"./entrypoint.js":{"id":"SU/M","buildMeta":{"providedExports":true}},"./beCalled.js":{"id":"ZjM2","buildMeta":{"providedExports":true}}}}

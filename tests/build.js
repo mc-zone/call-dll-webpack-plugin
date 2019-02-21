@@ -3,6 +3,10 @@ const webpack = require("webpack");
 const CallDllPlugin = require("../");
 
 const config = {
+  mode: "production",
+  optimization: {
+    minimize: false
+  },
   entry: ["./beCalled.js", "./notBeCalled.js", "./entrypoint.js"],
   context: __dirname,
   output: {
