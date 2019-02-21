@@ -3,7 +3,7 @@ const webpack = require("webpack");
 const CallDllPlugin = require("../");
 
 const config = {
-  entry: ["./other.js", "./entrypoint.js"],
+  entry: ["./beCalled.js", "./notBeCalled.js", "./entrypoint.js"],
   context: __dirname,
   output: {
     path: path.resolve(__dirname, "dist"),
@@ -12,6 +12,9 @@ const config = {
   },
   plugins: [
     new CallDllPlugin(),
+    new CallDllPlugin({
+      callModuleName: "./beCalled.js"
+    }),
     new webpack.DllPlugin({
       context: __dirname,
       name: "common",

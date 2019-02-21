@@ -18,6 +18,6 @@ test("should call Dll immediately", () => {
       vm.runInNewContext(bundle, sandbox);
       expect(sandbox.common).toBeDefined();
       expect(sandbox.window.installed).toBeDefined();
-      expect(sandbox.window.installed).toEqual(["entrypoint"]);
+      expect(sandbox.window.installed).toEqual(["entrypoint", "beCalled"]);
     });
 });
