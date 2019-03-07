@@ -1,6 +1,6 @@
 {
   "name": "call-dll-webpack-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Call DLL immediately.",
   "main": "./lib/index.js",
   "repository": "https://github.com/mc-zone/call-dll-webpack-plugin.git",
