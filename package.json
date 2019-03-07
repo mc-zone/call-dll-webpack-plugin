@@ -18,8 +18,7 @@
     "jest": "^23.5.0",
     "prettier": "^1.14.2"
   },
-  "dependencies": {},
-  "peerDependencies": {
+  "dependencies": {
     "webpack": "^4.29.5"
   }
 }
